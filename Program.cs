@@ -1,9 +1,9 @@
 using System;
 namespace Box
 {
-    class MainClass
+    internal class MainClass
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Я программа для выведения на экран квадрата из нулей и единиц, при чём нули находятся только на диагоналях квадрата.")
 int a = Convert.Int32(Console.ReadLine());
