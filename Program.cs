@@ -5,11 +5,11 @@ namespace Box
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Я программа для выведения на экран квадрата из нулей и единиц, при чём нули назодятся только на диагоналях квадрата.")
+            Console.WriteLine("Я программа для выведения на экран квадрата из нулей и единиц, при чём нули находятся только на диагоналях квадрата.")
 int a = Convert.Int32(Console.ReadLine());
             int b = Convert.Int32(Console.ReadLine());
             int c = 0;
-            int d = c;
+            int d = c;//задаются основные параметры. Т.к. у квадрата все стороны равны, то можно задать только одну его сторону.
             int[,] square = new int[a, b];
             for (c = 0; c < a; c++)
             {
