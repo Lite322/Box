@@ -5,7 +5,7 @@ namespace Box
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Я программа для бла-бла-бла")
+            Console.WriteLine("Я программа для 卐")
 int = x
 x=Console.ReadLine ();
 For(i=0; i<x; i++)
